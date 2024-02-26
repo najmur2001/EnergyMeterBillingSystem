@@ -24,7 +24,7 @@ async function connect() {
     // const mongod = await MongoMemoryServer.create(); // Commented out since MongoMemoryServer is not used
     // const uri = await mongod.getUri(); // Commented out since MongoMemoryServer is not used
 
-    const uri = 'mongodb://localhost:27017/billing'; // Replace 'yourDatabaseName' with your actual database name
+    const uri = 'mongodb://localhost:27017/billing'; 
 
     mongoose.set('strictQuery', true);
 
